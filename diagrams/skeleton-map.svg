@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 470" width="1000" height="470" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" role="img" aria-label="Skeleton map: rows are the work, delegation and governance loops; columns are Goal, Observe, Decide, Act and Ledger">
+  <rect x="0" y="0" width="1000" height="470" rx="14" fill="#fffdf8"/>
+  <g font-size="16" font-weight="700" fill="#29251f" text-anchor="middle">
+    <text x="250" y="38">Goal</text><text x="416" y="38">Observe</text><text x="582" y="38">Decide</text><text x="748" y="38">Act</text><text x="914" y="38">Ledger</text>
+  </g>
+  <rect x="10" y="60" width="150" height="125" rx="12" fill="#e8efe9" stroke="#44695a"/>
+  <g text-anchor="middle" fill="#29251f">
+    <text x="85" y="104" font-size="17" font-weight="700" fill="#44695a">Work loop</text>
+    <text x="85" y="128" font-size="13">run by the agent</text>
+    <text x="85" y="156" font-size="13" font-weight="700" fill="#a84f36">Executive</text>
+  </g>
+  <g fill="#fffdf8" stroke="#44695a">
+    <rect x="170" y="60" width="160" height="125" rx="10"/><rect x="336" y="60" width="160" height="125" rx="10"/><rect x="502" y="60" width="160" height="125" rx="10"/><rect x="668" y="60" width="160" height="125" rx="10"/><rect x="834" y="60" width="160" height="125" rx="10"/>
+  </g>
+  <g font-size="13" text-anchor="middle" fill="#29251f">
+    <text x="250" y="116">instructions,</text><text x="250" y="136">skills, task brief</text>
+    <text x="416" y="116">read tools,</text><text x="416" y="136">test results</text>
+    <text x="582" y="127">the model</text>
+    <text x="748" y="105">write tools</text><text x="748" y="125">sandbox</text><text x="748" y="147" fill="#6f675d">guardrails mostly here</text>
+    <text x="914" y="116">session log</text><text x="914" y="136">every action + result</text>
+  </g>
+  <rect x="10" y="195" width="150" height="125" rx="12" fill="#f4e4dc" stroke="#a84f36"/>
+  <g text-anchor="middle" fill="#29251f">
+    <text x="85" y="245" font-size="17" font-weight="700" fill="#a84f36">Delegation loop</text>
+    <text x="85" y="269" font-size="13">run by the principal</text>
+  </g>
+  <g fill="#fffdf8" stroke="#a84f36">
+    <rect x="170" y="195" width="160" height="125" rx="10"/><rect x="336" y="195" width="160" height="125" rx="10"/><rect x="502" y="195" width="160" height="125" rx="10"/><rect x="668" y="195" width="160" height="125" rx="10"/><rect x="834" y="195" width="160" height="125" rx="10"/>
+  </g>
+  <g font-size="13" text-anchor="middle" fill="#29251f">
+    <text x="250" y="248">acceptance criteria</text><text x="250" y="270" font-weight="700" fill="#a84f36">Legislative</text>
+    <text x="416" y="248">independent judge</text><text x="416" y="270" font-weight="700" fill="#a84f36">Judicial</text>
+    <text x="582" y="226">appoint from roster</text><text x="582" y="246" font-weight="700" fill="#a84f36">Examination</text><text x="582" y="270" fill="#6f675d">accept or return,</text><text x="582" y="289" fill="#6f675d">per the verdict</text>
+    <text x="748" y="248">hand over the task,</text><text x="748" y="268">authority, budget</text>
+    <text x="914" y="259">case evidence</text>
+  </g>
+  <rect x="10" y="330" width="150" height="125" rx="12" fill="#f0ebf3" stroke="#6d5a8f"/>
+  <g text-anchor="middle" fill="#29251f">
+    <text x="85" y="380" font-size="17" font-weight="700" fill="#6d5a8f">Governance loop</text>
+    <text x="85" y="404" font-size="13">run by the owner</text>
+  </g>
+  <g fill="#fffdf8" stroke="#6d5a8f">
+    <rect x="170" y="330" width="160" height="125" rx="10"/><rect x="336" y="330" width="160" height="125" rx="10"/><rect x="502" y="330" width="160" height="125" rx="10"/><rect x="668" y="330" width="160" height="125" rx="10"/><rect x="834" y="330" width="160" height="125" rx="10"/>
+  </g>
+  <g font-size="13" text-anchor="middle" fill="#29251f">
+    <text x="250" y="397">constitution, values</text>
+    <text x="416" y="386">audit</text><text x="416" y="408" font-weight="700" fill="#a84f36">Control</text>
+    <text x="582" y="397">owner amends rules</text>
+    <text x="748" y="386">change rules, roster,</text><text x="748" y="406">components; rollback</text>
+    <text x="914" y="397">tamper-proof ledger</text>
+  </g>
+</svg>

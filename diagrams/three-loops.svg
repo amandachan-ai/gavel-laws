@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 404" width="900" height="404" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" role="img" aria-label="Three nested loops: the work loop inside the delegation loop inside the governance loop; all three share an append-only ledger">
+  <defs><marker id="tl-a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6f675d"/></marker></defs>
+  <rect x="0" y="0" width="900" height="404" rx="14" fill="#fffdf8"/>
+  <rect x="20" y="20" width="860" height="300" rx="18" fill="#f0ebf3" stroke="#6d5a8f" stroke-width="1.5"/>
+  <text x="40" y="51" font-size="15" font-weight="700" fill="#6d5a8f">Governance loop — the owner, across many tasks</text>
+  <text x="860" y="51" text-anchor="end" font-size="13" fill="#29251f">closed by: auditing the ledger, amending rules when needed</text>
+  <rect x="60" y="70" width="780" height="220" rx="16" fill="#f4e4dc" stroke="#a84f36" stroke-width="1.5"/>
+  <text x="80" y="101" font-size="15" font-weight="700" fill="#a84f36">Delegation loop — the principal, every task</text>
+  <text x="820" y="101" text-anchor="end" font-size="13" fill="#29251f">closed by: an independent judge, against frozen criteria</text>
+  <rect x="100" y="120" width="700" height="130" rx="14" fill="#e8efe9" stroke="#44695a" stroke-width="1.5"/>
+  <text x="120" y="150" font-size="15" font-weight="700" fill="#44695a">Work loop — the agent, every step</text>
+  <text x="780" y="150" text-anchor="end" font-size="13" fill="#29251f">closed by: the world's real response</text>
+  <text x="450" y="212" text-anchor="middle" font-size="19" font-weight="700" fill="#29251f">Observe → Decide → Act → World → Observe</text>
+  <rect x="20" y="340" width="860" height="46" rx="12" fill="#efe8dc" stroke="#6f675d"/>
+  <text x="450" y="369" text-anchor="middle" font-size="14" fill="#29251f"><tspan font-weight="700">Ledger</tspan>: what happened at each step — append-only. Outer loops see inner loops through it.</text>
+  <line x1="300" y1="252" x2="300" y2="338" stroke="#6f675d" stroke-width="2" marker-end="url(#tl-a)"/>
+  <text x="292" y="313" text-anchor="end" font-size="13" fill="#6f675d">recorded as each step runs</text>
+  <line x1="640" y1="338" x2="640" y2="262" stroke="#6f675d" stroke-width="2" marker-end="url(#tl-a)"/>
+  <text x="650" y="313" font-size="13" fill="#6f675d">judge and auditor read</text>
+</svg>
